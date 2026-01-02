@@ -10,4 +10,5 @@ so what do we do:
     git rm -r --cached 'data'
     git commit -m "stop tracking data" 
 then we can now use the "dvc add data/" command and then do "git add .gitignore data.dvc"
-8. 
+8. Now - "dvc commit" and then "dvc push"
+9. Do a git add-commit-push to mark this stage as first version of data
